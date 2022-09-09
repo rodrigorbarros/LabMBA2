@@ -1,3 +1,4 @@
+
 # Nome do Workflow
 name: DevOpsLab Pipeline
 
@@ -5,7 +6,7 @@ name: DevOpsLab Pipeline
 on: 
   push:
     branches:
-      - main
+      - master
 
 jobs:
   Build:
@@ -19,8 +20,5 @@ jobs:
         with:
           python-version: '3.7.11'
 
-      - name: Install Requirements
-         run:  pip install flask flask-wtf pytest pytest-cov
-
       - name: Unit Test
-        run: python -m unittest -v test
+        run: python -m unittest -v test        
