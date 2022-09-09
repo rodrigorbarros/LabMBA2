@@ -22,7 +22,7 @@ class Test(unittest.TestCase):
         self.assertRegex(result.data.decode(), "DevOps IT Certs")
 
 
-if __name__ == "__main__":
+if __name__ == "__master__":
     print ('INICIANDO OS TESTES')
     print('----------------------------------------------------------------------')
     unittest.main(verbosity=2)
