@@ -1,9 +1,4 @@
 # Trilha DevOps da 4Linux
 
-<!-- Altere a Flag abaixo com sua URL do Travis -->
-[![Build Status](https://travis-ci.org/gabyldias/DevOpsLab-HelloWorld.svg?branch=master)](https://travis-ci.org/gabyldias/DevOpsLab-HelloWorld)
 
-## Aplicação criada para exemplificar o Ciclo de uma PipeLine DevOps
-
-
-Para maiores informações acesse o [Site da 4Linux](https://www.4linux.com.br/cursos/devops)
+Aplicação simples em python/flask com teste usando Unittest integrado ao Github Action fazendo deploy no Heroku para exercitar uma Pipeline DevOps
