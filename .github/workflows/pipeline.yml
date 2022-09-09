@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.7.11'
 
-      - name: Install Requirements
+      #- name: Install Requirements
          #run: pip install -r requirements.txt
 
       - name: Unit Test
