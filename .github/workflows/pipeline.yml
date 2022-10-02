@@ -24,7 +24,7 @@ jobs:
           sed -i "s/licensekey/${{ secrets.NEW_RELIC_LICENSE_KEY }}/g" Dockerfile
 
       - name: Install Requirements
-        run:  pip install flask flask-wtf pytest pytest-cov
+        run:  pip install newrelic flask flask-wtf pytest pytest-cov
 
       - name: Unit Test
         run: |
